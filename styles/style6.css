@@ -3,6 +3,20 @@ html,body {
 	font-family: "Arial", Gadget, sans-serif;
 }
 
+body {
+  width: 800px;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  margin: auto;
+  background-image: url("../images/bats.gif");
+  z-index: -1;
+}
+#container {
+  background-color: white;
+  z-index: 99;
+}
+
 #pumpkin {
 	float: left;
 	padding-top: 1%;
