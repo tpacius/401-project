@@ -1,0 +1,222 @@
+html,
+body {
+	margin: 0;
+	font-family: "Arial Black", Gadget, sans-serif;
+  background: url(../images/bats.gif);
+  /*height: 100%;*/
+}
+
+#body-wrapper {
+  width: 80%;
+  bottom: 0px;
+  margin: 0 auto;
+  height: 100%;
+  background: white;
+  border: 2px solid black;
+  -webkit-box-shadow: 0px 0px 130px 86px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 130px 86px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 130px 86px rgba(0,0,0,0.75)
+}
+
+#pumpkin-pic {
+	float: left;
+	padding-top: 1%;
+}
+
+#pumpkin-pic img {
+	display: inline-block;
+}
+
+#page-content {
+  height:400px;
+}
+
+#header-text {
+	padding-top: 1%;
+	margin-left: 10%;
+	line-height: 10px;
+}
+
+#page-header {
+    width: 100%;
+    border-bottom: 2px solid black;
+    overflow: auto;
+}
+
+#page-footer {
+	 text-align: center;
+   border-top: 2px solid black;
+   bottom:0px;
+   height:30px;
+}
+
+.gradient-container {
+ 	background: orange;
+ 	background: -webkit-linear-gradient(left, white, orange , black); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(right, white, orange, black); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(right, white, orange, black); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(to right, white, orange, black); /* Standard syntax */
+}
+
+.gradient-container-footer {
+ 	background: orange;
+ 	background: -webkit-linear-gradient(left, black, orange , white); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(right, black, orange, white); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(right, black, orange, white); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(to right, black, orange, white); /* Standard syntax */
+}
+
+#navigation {
+  float: left;
+  display: inline-block;
+  width: 155px;
+  height: 100%;
+  /*padding-top: 20px;*/
+  padding-right: 25px;
+  /*margin-bottom: 350px;*/
+}
+
+#navigation ul {
+  padding-left: 5px;
+}
+
+#navigation li a {
+  margin-bottom: 4%;
+  border: 3px solid black;
+  background: orange;
+  display: block;
+  padding: .5em 0.5em;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+
+
+#secondary-nav-container {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  font-size: 14px;
+}
+
+#secondary-nav {
+  list-style: none;
+  text-align: justify;
+}
+
+#secondary-nav:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+
+#secondary-nav .secondary-item {
+  display: inline-block;
+  padding: 0px 50px;
+}
+
+#secondary-nav .secondary-item:first-child a {
+  color: orange;
+}
+
+#secondary-nav .secondary-item a {
+  text-decoration: none;
+  color: white;
+}
+
+#secondary-nav .secondary-item ul{
+  display: none;
+}
+
+#secondary-nav .secondary-item:hover > ul{
+  display: block;;
+}
+
+
+#deco-subnav  {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  width: 133px;
+  list-style: none;
+  border: 1px solid black;
+  background: black;
+}
+
+#deco-subnav li {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  padding-top: 10%;
+}
+
+#deco-subnav li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+
+#deco-subnav li a:hover {
+  border: 1px solid #ccc;
+  background: #ccc;
+  display:block;
+  /*text-align:right;*/
+  text-decoration: none;
+}
+
+#recent-products {
+  float: right;
+  height: 100%;
+  width: 200px;
+  background: #F4DDB5;
+}
+
+#recent-products p {
+  padding-left: 3%;
+  font-size: 12px;
+  width: 150px;
+}
+
+#recent-products ul {
+  padding-left: 2%;
+  list-style-type: none;
+}
+
+#recent-products ul li img {
+  height: 50px;
+  width: 50px;
+}
+
+#recent-products ul li a {
+  font-size: 12px;
+  color: black;
+}
+
+#cat-content {
+  left: 31%;
+  position: absolute;
+}
+
+#cat-content img {
+  width: 200px;
+  height: auto;
+}
+
+#cat-content table {
+  width: 100%;
+}
+.cat-sale {
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+
+
+.sale-snippet {
+  font-size: 18px;
+  width: 300px;
+}
