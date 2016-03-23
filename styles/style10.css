@@ -183,7 +183,7 @@ table {
 }
 
 #products {
-  margin-left: auto;
+  /*margin-left: auto;*/
   margin-right: auto;
 }
 
@@ -192,9 +192,12 @@ table {
   vertical-align: top;
 }
 
-#product-heading {
-  text-align: center;
+caption {
+  font-size: 200%;
+  font-weight: bold;
+  /*font-family: "Arial Black";*/
 }
+
 
 #table-column {
   color: gray;

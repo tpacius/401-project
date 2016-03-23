@@ -103,7 +103,6 @@ aside li a {
 
 .text-right {
   font-family: Arial, Helvetica, sans-serif;
-  /*width: 500px;*/
 }
 
 #secondary-nav-container {
@@ -133,8 +132,8 @@ aside li a {
   padding: 0px 50px;
 }
 
-#secondary-nav .secondary-item:nth-child(5) a {
-/*  color: orange;*/
+#secondary-nav .secondary-item:nth-child(3) a {
+  color: orange;
 }
 
 #secondary-nav .secondary-item a {
@@ -185,3 +184,14 @@ aside li a {
   text-decoration: none;
 }
 
+#videoplayer {
+  margin: auto;
+}
+
+#page-title {
+  font-family: 'Creepster';
+}
+
+p {
+  
+}

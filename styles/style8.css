@@ -164,31 +164,26 @@ aside li a {
 
 
 #deco-subnav  {
-  /*display: none;*/
   position: absolute;
   margin: 0px;
   padding: 0px;
-  /*text-align: center;*/
-  width: 133px;
+  width: 133px !important;
   list-style: none;
   border: 1px solid black;
   background: black;
-  /*padding: 25px 45px 20px 41px;*/
 }
 
 #deco-subnav li {
   margin: 0px;
-  padding: 0px;
+  padding: 0px;*/
   display: block;
   padding-top: 10%;
-  width: 100%;
 }
 
 #deco-subnav li a {
   text-decoration: none;
-  font-size: 0.875em;
+  font-size: 14px;
   color: white;
-  width: 100%
 }
 
 #deco-subnav li a:hover {
@@ -197,7 +192,6 @@ aside li a {
   display:block;
   /*text-align:right;*/
   text-decoration: none;
-  width: 100%
 }
 
 #mobile-menu {
@@ -309,10 +303,5 @@ aside li a {
     float:none;
     position: relative;
   }
-  
+
 }
-
-
-
-
-

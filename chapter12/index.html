@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>MET CS 401: Halloween Store</title>
-    <link type="text/css" rel="stylesheet" href="../styles/email.css">
+    <link type="text/css" rel="stylesheet" href="../styles/personal.css">
   </head>
 
   <body>
@@ -35,21 +35,32 @@
         </div>
         <aside id="navigation">
             <ul id="navigation">
-                <li ><a href="">Props</a></li>
-                <li><a href="">Costumes</a></li>
-                <li><a href="">Special FX</a></li>
-                <li><a href="">Masks</a></li>
+                <li ><a href="">Pictures</a></li>
+                <li><a href="">Home Videos</a></li>
+                <li><a href="">Haunted Houses</a></li>
+                <li><a href="">Scary Stories</a></li>
             </ul>
         </aside>
         <section class="text-right">
-          <form name="email_form" action="/subscribe.html" method="post">
-              <h1>Please enter the following information:</h1>
-              <label>First name: </label> <input type="text" name="firstname" required> <br>
-              <label>Last name:</label> <input type="text" name="lastname" required> <br>
-              <label>Email: </label><input type="text" name="email" required> <br>
-              <label>Zip Code:</label> <input type="text" name="zip" placeholder="Optional but appreciated: 99999" pattern="\d{5}([\-]\d{4})?"> <br>
-              <input type="submit" name="submit" value="Subscribe">
-          </form>
+            <h1>Here is my favorite haunted house!</h1>
+            <video id="videoplayer" width="480" height="270" controls autoplay>
+                <source src="../media/hobbsgrove.mp4">
+                <object type="application/x-shockwave-flash" 
+                        width="480" height="270">
+                    <param name="movie" 
+                           value="../media/hobbsgrove.swf">
+                    <param name="wmode" value="transparent">
+                    <param name="quality" value="high">
+                    [if !IE]>
+                        <object type="application/x-shockwave-flash"
+                                data="../media/hobbsgrove.swf"
+                                width="480" height="270">
+                            <param name="wmode" value="transparent">
+                            <param name="quality" value="high">
+                        </object>
+                    [endif]
+                </object>    
+            </video>
         </section>
 
         <div id="page-footer" class="gradient-container-footer"> &copy; 2016 Ben Murach </div>
