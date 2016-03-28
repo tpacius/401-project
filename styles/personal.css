@@ -212,10 +212,11 @@ aside li a {
 
 hr {display: none;}
 
-@media print{
+@media print {
           body{
             background: none;
           }
+          
           #body-wrapper {
           width: 80%;
           bottom: 0px;
@@ -225,6 +226,7 @@ hr {display: none;}
           box-shadow: none;
           border: none;
           }
+
           #secondary-nav-container{display: none;}
           #navigation{display: none;}
           #video{display: none;}
