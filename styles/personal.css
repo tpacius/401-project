@@ -73,7 +73,7 @@ body {
 aside {
   float: left;
   width: 155px;
-  height: 100%;
+  height: 900px;
   padding-top: 20px;
   padding-right: 25px;
   margin-bottom: 350px;
@@ -192,6 +192,71 @@ aside li a {
   font-family: 'Creepster';
 }
 
-p {
-  
+#story-header {
+  font-family: sans-serif;
+}
+
+#story-title {
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+#story-body {
+  font-family: serif;
+}
+
+#author {
+  font-family: serif;
+  font-size: 14px;
+}
+
+hr {display: none;}
+
+@media print{
+          body{
+            background: none;
+          }
+          #body-wrapper {
+          width: 80%;
+          bottom: 0px;
+          margin: 0 auto;
+          height: 100%;
+          background: white;
+          box-shadow: none;
+          border: none;
+          }
+          #secondary-nav-container{display: none;}
+          #navigation{display: none;}
+          #video{display: none;}
+          #page-footer{display: none;}
+          #page-header{display: none;}
+
+          #story-header {
+          font-family: sans-serif;
+        }
+
+        hr{
+            display: block;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: inset;
+            border-width: 3px;
+            border-color: black;
+        }
+        #story-title {
+          font-family: sans-serif;
+          font-size: 24px;
+        }
+
+        #story-body {
+          font-family: serif;
+        }
+
+        #author {
+          font-family: serif;
+          font-size: 14px;
+        }
+
 }
