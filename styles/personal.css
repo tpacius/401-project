@@ -184,7 +184,7 @@ aside li a {
   text-decoration: none;
 }
 
-#videoplayer {
+#video {
   margin: auto;
 }
 
@@ -216,7 +216,7 @@ hr {display: none;}
           body{
             background: none;
           }
-          
+
           #body-wrapper {
           width: 80%;
           bottom: 0px;
