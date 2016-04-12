@@ -1,0 +1,186 @@
+html,
+body {
+  margin: 0;
+  font-family: "Arial Black", Gadget, sans-serif;
+  background: url(../images/bats.gif);
+}
+
+#body-wrapper {
+  width: 80%;
+  bottom: 0px;
+  margin: 0 auto;
+  height: 100%;
+  background: white;
+  border: 2px solid black;
+  -webkit-box-shadow: 0px 0px 130px 86px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 130px 86px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 130px 86px rgba(0,0,0,0.75)
+}
+
+#pumpkin-pic {
+  float: left;
+  padding-top: 1%;
+}
+
+#pumpkin-pic img {
+  display: inline-block;
+}
+
+#header-text {
+  padding-top: 1%;
+  margin-left: 10%;
+  line-height: 10px;
+}
+
+#page-header {
+    width: 100%;
+    border-bottom: 2px solid black;
+    overflow: auto;
+}
+
+#page-title {
+  font-family: "Creepster";
+}
+
+#page-footer {
+   text-align: center;
+   border-top: 2px solid black;
+   bottom:0px;
+   height:50px;
+}
+
+.gradient-container {
+  background: orange;
+  background: -webkit-linear-gradient(left, white, orange , black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, white, orange, black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, white, orange, black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, white, orange, black); /* Standard syntax */
+}
+
+.gradient-container-footer {
+  background: orange;
+  background: -webkit-linear-gradient(left, black, orange , white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, black, orange, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, black, orange, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, black, orange, white); /* Standard syntax */
+}
+
+aside {
+  float: left;
+  width: 155px;
+  height: 900px;
+  padding-top: 20px;
+  padding-right: 25px;
+  margin-bottom: 350px;
+}
+
+aside ul {
+  padding-left: 5px;
+}
+
+aside li a {
+  margin-bottom: 4%;
+  border: 3px solid black;
+  background: orange;
+  display: block;
+  padding: .5em 0.5em;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+
+.text-right {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#secondary-nav-container {
+  border: 1px solid black;
+  background: black;
+  color: white;
+  font-size: 14px;
+}
+
+#secondary-nav {
+  list-style: none;
+  text-align: justify;
+  /*display: inline-block;*/
+}
+
+#secondary-nav:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+
+#secondary-nav .secondary-item {
+  /*float: left;*/
+  display: inline-block;
+  /*text-align: center;*/
+  padding: 0px 50px;
+}
+
+#secondary-nav .secondary-item:nth-child(4) a {
+  color: orange;
+}
+
+#secondary-nav .secondary-item a {
+  text-decoration: none;
+  color: white;
+}
+
+#secondary-nav .secondary-item ul{
+  display: none;
+}
+
+#secondary-nav .secondary-item:hover > ul{
+  display: block;;
+}
+
+
+#deco-subnav  {
+  /*display: none;*/
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  /*text-align: center;*/
+  width: 133px;
+  list-style: none;
+  border: 1px solid black;
+  background: black;
+  /*padding: 25px 45px 20px 41px;*/
+}
+
+#deco-subnav li {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  padding-top: 10%;
+}
+
+#deco-subnav li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+
+#deco-subnav li a:hover {
+  border: 1px solid #ccc;
+  background: #ccc;
+  display:block;
+  /*text-align:right;*/
+  text-decoration: none;
+}
+
+#caption {
+  color:orange;
+}
+
+#alt {
+  color:orange;
+}
+
+#slides img {
+  display: none;
+}
