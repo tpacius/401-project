@@ -63,6 +63,7 @@ body {
   background: -o-linear-gradient(right, black, orange, white); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, black, orange, white); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, black, orange, white); /* Standard syntax */
+  text-align: center;
 }
 
 aside {
